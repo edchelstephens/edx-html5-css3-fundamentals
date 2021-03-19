@@ -32,3 +32,11 @@
 >
 > -   [HTML](https://en.wikipedia.org/wiki/HTML) actually borrows the techniques from [SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language), to provide an easy way for a computer to determine which parts are **"MarkUp"** and which parts are the **content**.
 > -   This is done by using `<` and `>` as a kind of parentheses(or delimiter in programming), HTML can indicate the beginning and end of a tag, that is, **the presence of `<` tells the browser 'this next bit is markup, pay attention'.**
+
+# Key Understanding
+
+> -   One **_key to understanding HTML, or any computer language_**, is to sure that you **avoid ambiguity**, because **_computers generally are not good at judgement calls_**.
+
+> When a browser or client receives a file, it may know that it's receiving an HTML file, but it won't know which version of HTML is used(it matters). That's why **the first thing you need in any HTML file** is a **tag to tell you what type of HTML file it is**: **`<!DOCTYPE html>`**
+
+> It may seem redundant, but the html tag tells the computer where the actual HTML code begins using **`<html>`**.
